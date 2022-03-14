@@ -1,0 +1,33 @@
+:root {
+    --seccondary-col: rgb(123 144 255);
+    --alert-col: rgb(218 77 77);
+}
+
+.btn-style{
+    border: none;
+    background: var(--alert-col);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.btn-style:hover{
+    filter: brightness(90%);
+}
+.btn-style-alert{
+    border: none;
+    background: var(--alert-col);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.btn-style-alert:hover{
+    background: rgb(243 47 47);
+}

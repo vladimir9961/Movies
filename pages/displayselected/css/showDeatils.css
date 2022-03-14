@@ -1,0 +1,55 @@
+img{
+    width: 100%;
+    height: auto;
+}
+.show-details{
+    display: flex;
+    background: rgb(0 0 0 / 70%);
+    padding: 10px;
+}
+.left-side-img{
+    width: 50%;
+}
+.right-side-info{
+    width: 50%;
+    color:white
+}
+.left-side-img a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+.left-side-img  a::before {
+    content: "";
+    background: url(../../../assets/images/play.png) no-repeat center;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+.left-side-img a:hover::before{
+    background: rgb(0 0 0 / 30%)  url(../../../assets/images/play.png) no-repeat center;
+    width: 100%;   
+}
+.right-side-info{
+    text-align: center;
+    padding: 24px;
+}
+.right-side-info h1{
+    color: wheat;
+}
+.right-side-info p{
+    margin-top: 1em;
+}
+.info{
+    display: flex;
+    margin-top: 2em;
+    width: 100%;
+}
+.info p{
+    display: flex;
+    font-size: 14px;
+    width: 50%;
+}
